@@ -68,7 +68,7 @@ function Dashboard() {
             <Card className="card-chart">
               <CardHeader>
                 <h5 className="card-category">Global Sales</h5>
-                <CardTitle tag="h4">Shipped Products</CardTitle>
+                <CardTitle tag="h4">hallo</CardTitle>
                 <UncontrolledDropdown>
                   <DropdownToggle
                     className="btn-round btn-outline-default btn-icon"
