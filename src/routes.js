@@ -19,6 +19,7 @@ import Dashboard from "views/Dashboard.js";
 import Notifications from "views/Notifications.js";
 import Icons from "views/Icons.js";
 import Typography from "views/Typography.js";
+import Profile from "views/Profile.js";
 import TableList from "views/TableList.js";
 import Maps from "views/Maps.js";
 import Upgrade from "views/Upgrade.js";
@@ -72,6 +73,13 @@ var dashRoutes = [
     name: "Typography",
     icon: "design-2_ruler-pencil",
     component: <Typography />,
+    layout: "/admin",
+  },
+  {
+    path: "/Profile",
+    name: "Profile",
+    icon: "design-2_ruler-pencil",
+    component: <Profile />,
     layout: "/admin",
   },
   {
